@@ -48,7 +48,7 @@ function Products () {
     <div>
       <div className='bg-white'>
         <div className='mx-auto max-w-2xl px-4 pb-16 sm:px-6 lg:max-w-7xl lg:px-8'>
-          <div className='flex'>
+          <div className='flex items-center'>
             <h2 className='text-2xl font-bold tracking-tight text-gray-900'>
                 KAOS PRIA
             </h2>
@@ -86,7 +86,7 @@ function Products () {
           </div>
         </div>
       </div>
-      <div className='flex justify-between align-middle'>
+      <div className='flex justify-between items-center'>
         <p className='text-black'>19 - 24 dari 24 produk</p>
         <Paging />
       </div>
